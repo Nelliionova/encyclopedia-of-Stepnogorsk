@@ -1,0 +1,76 @@
+.hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin: 0;
+    padding-top: 50px;
+}
+img{
+   
+    border-radius: 40px;
+    border: 3px solid rgb(98, 98, 249);
+    box-shadow: 5px 5px 5px 5px rgba(227, 255, 117, 0.786);
+    -webkit-animation: hello 15s alternate infinite;
+}
+@keyframes hello{
+    10%{
+        box-shadow: 0 0 15px 5px cornflowerblue;
+        border-radius: 30px;
+    }
+    20%{
+        box-shadow: 0 0 10px 15px rgb(230, 255, 106);
+        border-radius: 40px;
+        
+    }
+    30%{
+        box-shadow: 0 0 15px 5px rgb(88, 160, 255);
+        border-radius: 30px;
+        
+    }
+    40%{
+        box-shadow: 0 0 10px 15px rgb(243, 255, 130);
+        border-radius: 40px;
+       
+    }
+    50%{
+        box-shadow: 0 0 15px 5px rgb(255, 251, 138);
+        border-radius: 30px;
+        
+    }
+    60%{
+        box-shadow: 0 0 10px 15px rgb(187, 255, 114);
+        border-radius: 40px;
+        
+    }
+    70%{
+        box-shadow: 0 0 15px 5px rgb(82, 180, 246);
+        border-radius: 30px;
+        
+    }
+    80%{
+        box-shadow: 0 0 10px 15px rgb(107, 208, 255);
+        border-radius: 40px;
+       
+    }
+    90%{
+        box-shadow: 0 0 15px 5px rgb(85, 202, 245);
+        border-radius: 30px;
+        
+    }
+    100%{
+        box-shadow: 0 0 10px 15px cornflowerblue;
+        border-radius: 40px;
+       
+    }
+}
