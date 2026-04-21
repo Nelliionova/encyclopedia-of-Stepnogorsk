@@ -1,0 +1,16 @@
+header{
+    background-color: rgb(168, 193, 255);
+}
+.XXL_height.webp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+@media (max-width: 768px){
+    .XXL_height.webp img{
+        width: 500px;
+    }
+}
